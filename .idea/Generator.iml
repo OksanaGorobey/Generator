@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-http-message-factory-psr17" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/polyfill-str-levenshtein" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-domain-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-parser-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-uri-parser-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/polyfill-php80-stringable" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-parser-object" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-domain-object" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-http-message-psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-extended/php-uri-parser-object" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/middlewares/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/middlewares/request-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/middlewares/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/tuupola/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-di/phpdoc-reader" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/php-di/invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/relay/relay" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/laminas/laminas-zendframework-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/laminas/laminas-httphandlerrunner" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/laminas/laminas-stdlib" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/laminas/laminas-config" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/rakit/validation" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -32,8 +32,8 @@ namespace App\Controller
         {
             return new \Laminas\Diactoros\Response\JsonResponse(
                 [
-                    'code' => \App\lib\consts::HTTP_CODE_OK,
-                    'content' =>
+                    'code'      => \App\lib\consts::HTTP_CODE_OK,
+                    'content'   =>
                     [
                         'message' => 'General Page'
                     ]
@@ -72,8 +72,8 @@ namespace App\Controller
         {
             return new \Laminas\Diactoros\Response\JsonResponse(
                 [
-                    'code' => \App\lib\consts::HTTP_CODE_BAD_REQUEST,
-                    'content' =>
+                    'code'      => \App\lib\consts::HTTP_CODE_BAD_REQUEST,
+                    'content'   =>
                     [
                         'message' => 'HTTP/1.0 400 Bad Request. Token not found in request.'
                     ]
@@ -93,8 +93,8 @@ namespace App\Controller
         {
             return new \Laminas\Diactoros\Response\JsonResponse(
                 [
-                    'code' => \App\lib\consts::HTTP_CODE_UNAUTHORIZED,
-                    'content' =>
+                    'code'      => \App\lib\consts::HTTP_CODE_UNAUTHORIZED,
+                    'content'   =>
                     [
                         'message' => 'HTTP/1.1 401 Unauthorized. Token not valid in request.'
                     ]
@@ -114,8 +114,8 @@ namespace App\Controller
         {
             return new \Laminas\Diactoros\Response\JsonResponse(
                 [
-                    'code' => \App\lib\consts::HTTP_CODE_FORBIDDEN,
-                    'content' =>
+                    'code'      => \App\lib\consts::HTTP_CODE_FORBIDDEN,
+                    'content'   =>
                     [
                         'message' => 'HTTP/1.1 403 Forbidden.'
                     ]
@@ -135,8 +135,8 @@ namespace App\Controller
         {
             return new \Laminas\Diactoros\Response\JsonResponse(
                 [
-                    'code' => \App\lib\consts::HTTP_CODE_NOT_FOUND,
-                    'content' =>
+                    'code'      => \App\lib\consts::HTTP_CODE_NOT_FOUND,
+                    'content'   =>
                     [
                         'message' => 'HTTP/1.1 404 Not Found. This method not found.'
                     ]
@@ -158,10 +158,10 @@ namespace App\Controller
 
             return new \Laminas\Diactoros\Response\JsonResponse(
                 [
-                    'code' => \App\lib\consts::HTTP_CODE_NOT_ALLOWED,
-                    'content' =>
+                    'code'      => \App\lib\consts::HTTP_CODE_NOT_ALLOWED,
+                    'content'   =>
                     [
-                        'message' => sprintf('HTTP/1.1 405 Not Found. This method not allowed. Allowed: %s', $methods)
+                        'message' => sprintf( 'HTTP/1.1 405 Not Found. This method not allowed. Allowed: %s', $methods )
                     ]
                 ]
             );
